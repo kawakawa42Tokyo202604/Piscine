@@ -24,6 +24,14 @@ cd BSQ
 make
 ```
 
+### Tests
+
+```sh
+make test
+```
+
+Run `make test` at the repository root to build and test BSQ and Rush00–02. These tests cover executable behavior and input errors; they do not grade every C and Shell exercise. A C compiler, Python 3, and Make are required.
+
 ## 日本語
 
 42 Tokyoの入学選考期間「Piscine」で取り組んだプログラムとスクリプトの記録です。Cの基本的な関数、端末でのファイル操作、チームで作る小さなプログラムを収録しています。
@@ -47,3 +55,11 @@ Cの演習は関数単位のファイル、Rush・BSQは実行プログラムで
 cd BSQ
 make
 ```
+
+### テスト
+
+```sh
+make test
+```
+
+リポジトリ直下の `make test` でBSQ・Rush00〜02をビルドして検証します。実行結果と入力エラーが対象で、C・Shellの全演習を採点するものではありません。Cコンパイラ・Python 3・Makeが必要です。

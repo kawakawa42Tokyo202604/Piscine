@@ -1,0 +1,8 @@
+*.o
+*.a
+__pycache__/
+.pytest_cache/
+/BSQ/bsq
+/Rush/Rush00/rush-00
+/Rush/Rush01/rush-01
+/Rush/Rush02/rush-02
